@@ -1,0 +1,9 @@
+<settings>
+    <servers>
+        <server>
+            <id>gradle_repository</id>
+            <username>${security.getCurrentUsername()}</username>
+            <password>${security.getEscapedEncryptedPassword()!"APdCBFBdyp5LG49XVPsUJjb8ke"}</password>
+        </server>
+    </servers>
+</settings> 
